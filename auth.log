@@ -1,0 +1,297 @@
+2025-05-26T00:09:41.782607-07:00 DESKTOP-C4J7T14 login[612]: pam_unix(login:session): session opened for user ame(uid=1000) by ame(uid=0)
+2025-05-26T00:09:41.915459-07:00 DESKTOP-C4J7T14 systemd-logind[437]: New session 1 of user ame.
+2025-05-26T00:09:42.105015-07:00 DESKTOP-C4J7T14 (systemd): pam_unix(systemd-user:session): session opened for user ame(uid=1000) by ame(uid=0)
+2025-05-26T00:09:54.206382-07:00 DESKTOP-C4J7T14 sudo:      ame : TTY=pts/0 ; PWD=/home/ame ; USER=root ; COMMAND=/usr/bin/pkill tailscaled
+2025-05-26T00:09:54.216780-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-05-26T00:09:54.265177-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-26T00:09:58.818208-07:00 DESKTOP-C4J7T14 sudo:      ame : TTY=pts/0 ; PWD=/home/ame ; USER=root ; COMMAND=/usr/sbin/tailscaled
+2025-05-26T00:09:58.820250-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-05-26T00:10:11.596697-07:00 DESKTOP-C4J7T14 sudo:      ame : TTY=pts/3 ; PWD=/home/ame ; USER=root ; COMMAND=/usr/bin/tailscale up
+2025-05-26T00:10:11.598824-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-05-26T00:10:13.263850-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-26T00:10:20.466574-07:00 DESKTOP-C4J7T14 su: pam_unix(su-l:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/3 ruser=ame rhost=  user=ferna
+2025-05-26T00:10:22.099031-07:00 DESKTOP-C4J7T14 su[1390]: FAILED SU (to ferna) ame on pts/3
+2025-05-26T00:11:20.644889-07:00 DESKTOP-C4J7T14 su[1622]: (to ferna) ame on pts/3
+2025-05-26T00:11:20.647437-07:00 DESKTOP-C4J7T14 su[1622]: pam_unix(su-l:session): session opened for user ferna(uid=1002) by (uid=1000)
+2025-05-26T00:11:20.662774-07:00 DESKTOP-C4J7T14 systemd-logind[437]: New session c1 of user ferna.
+2025-05-26T00:11:20.694240-07:00 DESKTOP-C4J7T14 (systemd): pam_unix(systemd-user:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T00:13:45.618409-07:00 DESKTOP-C4J7T14 sshd[1709]: Server listening on :: port 5000.
+2025-05-26T00:13:46.025270-07:00 DESKTOP-C4J7T14 sshd[1710]: Accepted publickey for ferna from 100.86.78.35 port 52102 ssh2: RSA SHA256:iHCNrX8+kQqUl8ydX0s2VLFuv1S54Y5tDAK8Xwubb20
+2025-05-26T00:13:46.028961-07:00 DESKTOP-C4J7T14 sshd[1710]: pam_unix(sshd:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T00:13:46.037077-07:00 DESKTOP-C4J7T14 systemd-logind[437]: New session 4 of user ferna.
+2025-05-26T00:13:47.124784-07:00 DESKTOP-C4J7T14 sshd[1748]: Received disconnect from 100.86.78.35 port 52102:11: disconnected by user
+2025-05-26T00:13:47.125179-07:00 DESKTOP-C4J7T14 sshd[1748]: Disconnected from user ferna 100.86.78.35 port 52102
+2025-05-26T00:13:47.125858-07:00 DESKTOP-C4J7T14 sshd[1710]: pam_unix(sshd:session): session closed for user ferna
+2025-05-26T00:13:47.131188-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Session 4 logged out. Waiting for processes to exit.
+2025-05-26T00:13:47.132414-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Removed session 4.
+2025-05-26T00:13:55.197997-07:00 DESKTOP-C4J7T14 sshd[1752]: Accepted publickey for ferna from 100.86.78.35 port 52106 ssh2: RSA SHA256:iHCNrX8+kQqUl8ydX0s2VLFuv1S54Y5tDAK8Xwubb20
+2025-05-26T00:13:55.201618-07:00 DESKTOP-C4J7T14 sshd[1752]: pam_unix(sshd:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T00:13:55.209294-07:00 DESKTOP-C4J7T14 systemd-logind[437]: New session 5 of user ferna.
+2025-05-26T00:13:55.701763-07:00 DESKTOP-C4J7T14 sshd[1781]: Received disconnect from 100.86.78.35 port 52106:11: disconnected by user
+2025-05-26T00:13:55.702063-07:00 DESKTOP-C4J7T14 sshd[1781]: Disconnected from user ferna 100.86.78.35 port 52106
+2025-05-26T00:13:55.702234-07:00 DESKTOP-C4J7T14 sshd[1752]: pam_unix(sshd:session): session closed for user ferna
+2025-05-26T00:13:55.707787-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Session 5 logged out. Waiting for processes to exit.
+2025-05-26T00:13:55.709551-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Removed session 5.
+2025-05-26T00:14:04.805905-07:00 DESKTOP-C4J7T14 sshd[1783]: Accepted publickey for ferna from 100.86.78.35 port 46394 ssh2: RSA SHA256:iHCNrX8+kQqUl8ydX0s2VLFuv1S54Y5tDAK8Xwubb20
+2025-05-26T00:14:04.809385-07:00 DESKTOP-C4J7T14 sshd[1783]: pam_unix(sshd:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T00:14:04.816598-07:00 DESKTOP-C4J7T14 systemd-logind[437]: New session 6 of user ferna.
+2025-05-26T00:14:05.255041-07:00 DESKTOP-C4J7T14 sshd[1812]: Received disconnect from 100.86.78.35 port 46394:11: disconnected by user
+2025-05-26T00:14:05.255296-07:00 DESKTOP-C4J7T14 sshd[1812]: Disconnected from user ferna 100.86.78.35 port 46394
+2025-05-26T00:14:05.255558-07:00 DESKTOP-C4J7T14 sshd[1783]: pam_unix(sshd:session): session closed for user ferna
+2025-05-26T00:14:05.260893-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Session 6 logged out. Waiting for processes to exit.
+2025-05-26T00:14:05.262465-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Removed session 6.
+2025-05-26T00:14:53.580261-07:00 DESKTOP-C4J7T14 sshd[1822]: Accepted publickey for ferna from 100.86.78.35 port 41494 ssh2: RSA SHA256:iHCNrX8+kQqUl8ydX0s2VLFuv1S54Y5tDAK8Xwubb20
+2025-05-26T00:14:53.584238-07:00 DESKTOP-C4J7T14 sshd[1822]: pam_unix(sshd:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T00:14:53.592277-07:00 DESKTOP-C4J7T14 systemd-logind[437]: New session 7 of user ferna.
+2025-05-26T00:14:55.006445-07:00 DESKTOP-C4J7T14 sshd[1860]: Received disconnect from 100.86.78.35 port 41494:11: disconnected by user
+2025-05-26T00:14:55.011636-07:00 DESKTOP-C4J7T14 sshd[1860]: Disconnected from user ferna 100.86.78.35 port 41494
+2025-05-26T00:14:55.012106-07:00 DESKTOP-C4J7T14 sshd[1822]: pam_unix(sshd:session): session closed for user ferna
+2025-05-26T00:14:55.014426-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Session 7 logged out. Waiting for processes to exit.
+2025-05-26T00:14:55.015754-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Removed session 7.
+2025-05-26T00:15:03.629954-07:00 DESKTOP-C4J7T14 sshd[1862]: Accepted publickey for ferna from 100.86.78.35 port 36934 ssh2: RSA SHA256:iHCNrX8+kQqUl8ydX0s2VLFuv1S54Y5tDAK8Xwubb20
+2025-05-26T00:15:03.633393-07:00 DESKTOP-C4J7T14 sshd[1862]: pam_unix(sshd:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T00:15:03.639884-07:00 DESKTOP-C4J7T14 systemd-logind[437]: New session 8 of user ferna.
+2025-05-26T00:15:04.132865-07:00 DESKTOP-C4J7T14 sshd[1891]: Received disconnect from 100.86.78.35 port 36934:11: disconnected by user
+2025-05-26T00:15:04.133111-07:00 DESKTOP-C4J7T14 sshd[1891]: Disconnected from user ferna 100.86.78.35 port 36934
+2025-05-26T00:15:04.133959-07:00 DESKTOP-C4J7T14 sshd[1862]: pam_unix(sshd:session): session closed for user ferna
+2025-05-26T00:15:04.139527-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Session 8 logged out. Waiting for processes to exit.
+2025-05-26T00:15:04.141173-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Removed session 8.
+2025-05-26T00:15:08.752468-07:00 DESKTOP-C4J7T14 sshd[1896]: Accepted publickey for ferna from 100.86.78.35 port 42704 ssh2: RSA SHA256:iHCNrX8+kQqUl8ydX0s2VLFuv1S54Y5tDAK8Xwubb20
+2025-05-26T00:15:08.755894-07:00 DESKTOP-C4J7T14 sshd[1896]: pam_unix(sshd:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T00:15:08.762863-07:00 DESKTOP-C4J7T14 systemd-logind[437]: New session 9 of user ferna.
+2025-05-26T00:15:09.221216-07:00 DESKTOP-C4J7T14 sshd[1925]: Received disconnect from 100.86.78.35 port 42704:11: disconnected by user
+2025-05-26T00:15:09.221442-07:00 DESKTOP-C4J7T14 sshd[1925]: Disconnected from user ferna 100.86.78.35 port 42704
+2025-05-26T00:15:09.221894-07:00 DESKTOP-C4J7T14 sshd[1896]: pam_unix(sshd:session): session closed for user ferna
+2025-05-26T00:15:09.226972-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Session 9 logged out. Waiting for processes to exit.
+2025-05-26T00:15:09.228542-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Removed session 9.
+2025-05-26T00:16:06.625229-07:00 DESKTOP-C4J7T14 sshd[1930]: Accepted publickey for ferna from 100.86.78.35 port 50210 ssh2: RSA SHA256:iHCNrX8+kQqUl8ydX0s2VLFuv1S54Y5tDAK8Xwubb20
+2025-05-26T00:16:06.629699-07:00 DESKTOP-C4J7T14 sshd[1930]: pam_unix(sshd:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T00:16:06.637502-07:00 DESKTOP-C4J7T14 systemd-logind[437]: New session 10 of user ferna.
+2025-05-26T00:16:05.739800-07:00 DESKTOP-C4J7T14 sshd[1971]: Received disconnect from 100.86.78.35 port 50210:11: disconnected by user
+2025-05-26T00:16:05.740060-07:00 DESKTOP-C4J7T14 sshd[1971]: Disconnected from user ferna 100.86.78.35 port 50210
+2025-05-26T00:16:05.741146-07:00 DESKTOP-C4J7T14 sshd[1930]: pam_unix(sshd:session): session closed for user ferna
+2025-05-26T00:16:05.747540-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Session 10 logged out. Waiting for processes to exit.
+2025-05-26T00:16:05.748936-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Removed session 10.
+2025-05-26T00:17:01.118533-07:00 DESKTOP-C4J7T14 CRON[1975]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-26T00:17:01.130490-07:00 DESKTOP-C4J7T14 CRON[1975]: pam_unix(cron:session): session closed for user root
+2025-05-26T00:20:33.918924-07:00 DESKTOP-C4J7T14 sshd[2097]: Accepted publickey for ferna from 100.86.78.35 port 43862 ssh2: RSA SHA256:iHCNrX8+kQqUl8ydX0s2VLFuv1S54Y5tDAK8Xwubb20
+2025-05-26T00:20:33.924588-07:00 DESKTOP-C4J7T14 sshd[2097]: pam_unix(sshd:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T00:20:33.931792-07:00 DESKTOP-C4J7T14 systemd-logind[437]: New session 12 of user ferna.
+2025-05-26T00:20:33.022968-07:00 DESKTOP-C4J7T14 sshd[2135]: Received disconnect from 100.86.78.35 port 43862:11: disconnected by user
+2025-05-26T00:20:33.023247-07:00 DESKTOP-C4J7T14 sshd[2135]: Disconnected from user ferna 100.86.78.35 port 43862
+2025-05-26T00:20:33.024402-07:00 DESKTOP-C4J7T14 sshd[2097]: pam_unix(sshd:session): session closed for user ferna
+2025-05-26T00:20:33.029320-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Session 12 logged out. Waiting for processes to exit.
+2025-05-26T00:20:33.030623-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Removed session 12.
+2025-05-26T00:21:02.932602-07:00 DESKTOP-C4J7T14 sshd[2143]: Accepted publickey for ferna from 100.86.78.35 port 46444 ssh2: RSA SHA256:iHCNrX8+kQqUl8ydX0s2VLFuv1S54Y5tDAK8Xwubb20
+2025-05-26T00:21:02.936336-07:00 DESKTOP-C4J7T14 sshd[2143]: pam_unix(sshd:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T00:21:02.942480-07:00 DESKTOP-C4J7T14 systemd-logind[437]: New session 13 of user ferna.
+2025-05-26T00:21:03.457838-07:00 DESKTOP-C4J7T14 sshd[2172]: Received disconnect from 100.86.78.35 port 46444:11: disconnected by user
+2025-05-26T00:21:03.458258-07:00 DESKTOP-C4J7T14 sshd[2172]: Disconnected from user ferna 100.86.78.35 port 46444
+2025-05-26T00:21:03.459878-07:00 DESKTOP-C4J7T14 sshd[2143]: pam_unix(sshd:session): session closed for user ferna
+2025-05-26T00:21:03.470515-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Session 13 logged out. Waiting for processes to exit.
+2025-05-26T00:21:03.473909-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Removed session 13.
+2025-05-26T00:23:23.731446-07:00 DESKTOP-C4J7T14 su[1622]: pam_unix(su-l:session): session closed for user ferna
+2025-05-26T00:23:23.736525-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Session c1 logged out. Waiting for processes to exit.
+2025-05-26T00:23:23.737699-07:00 DESKTOP-C4J7T14 systemd-logind[437]: Removed session c1.
+2025-05-26T00:23:31.141929-07:00 DESKTOP-C4J7T14 sudo:      ame : TTY=pts/3 ; PWD=/home/ame ; USER=root ; COMMAND=/usr/bin/tailscale down
+2025-05-26T00:23:31.143784-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-05-26T00:23:32.669393-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-26T00:23:33.814798-07:00 DESKTOP-C4J7T14 (sd-pam): pam_unix(systemd-user:session): session closed for user ferna
+2025-05-26T00:23:33.536438-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-26T14:02:07.340178-07:00 DESKTOP-C4J7T14 systemd-logind[343]: New seat seat0.
+2025-05-26T14:02:11.571345-07:00 DESKTOP-C4J7T14 login[806]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2025-05-26T14:02:11.571547-07:00 DESKTOP-C4J7T14 login[806]: PAM adding faulty module: pam_lastlog.so
+2025-05-26T14:02:12.375565-07:00 DESKTOP-C4J7T14 login[806]: pam_unix(login:session): session opened for user ame(uid=1000) by ame(uid=0)
+2025-05-26T14:02:12.395748-07:00 DESKTOP-C4J7T14 systemd-logind[343]: New session 1 of user ame.
+2025-05-26T14:02:12.430120-07:00 DESKTOP-C4J7T14 (systemd): pam_unix(systemd-user:session): session opened for user ame(uid=1000) by ame(uid=0)
+2025-05-26T14:02:24.932830-07:00 DESKTOP-C4J7T14 sudo:      ame : TTY=pts/0 ; PWD=/home/ame ; USER=root ; COMMAND=/usr/bin/pkill tailscaled
+2025-05-26T14:02:24.935409-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-05-26T14:02:24.950487-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-26T14:02:26.933948-07:00 DESKTOP-C4J7T14 sudo:      ame : TTY=pts/0 ; PWD=/home/ame ; USER=root ; COMMAND=/usr/sbin/tailscaled
+2025-05-26T14:02:26.935840-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-05-26T14:02:44.251967-07:00 DESKTOP-C4J7T14 sudo:      ame : TTY=pts/3 ; PWD=/home/ame ; USER=root ; COMMAND=/usr/bin/tailscale up
+2025-05-26T14:02:44.253685-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-05-26T14:02:48.973592-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-26T14:03:06.772285-07:00 DESKTOP-C4J7T14 su[1056]: (to ferna) ame on pts/3
+2025-05-26T14:03:06.776042-07:00 DESKTOP-C4J7T14 su[1056]: pam_unix(su-l:session): session opened for user ferna(uid=1002) by (uid=1000)
+2025-05-26T14:03:06.793698-07:00 DESKTOP-C4J7T14 systemd-logind[343]: New session c1 of user ferna.
+2025-05-26T14:03:06.888294-07:00 DESKTOP-C4J7T14 (systemd): pam_unix(systemd-user:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T14:07:16.370255-07:00 DESKTOP-C4J7T14 su[1056]: pam_unix(su-l:session): session closed for user ferna
+2025-05-26T14:07:16.374872-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Session c1 logged out. Waiting for processes to exit.
+2025-05-26T14:07:16.376141-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Removed session c1.
+2025-05-26T14:07:25.195756-07:00 DESKTOP-C4J7T14 sudo:      ame : TTY=pts/3 ; PWD=/home/ame ; USER=root ; COMMAND=/usr/bin/tailscale down
+2025-05-26T14:07:25.199081-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-05-26T14:07:26.498019-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-26T14:07:26.558986-07:00 DESKTOP-C4J7T14 (sd-pam): pam_unix(systemd-user:session): session closed for user ferna
+2025-05-26T14:07:29.730155-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-26T14:07:33.821804-07:00 DESKTOP-C4J7T14 sudo:      ame : TTY=pts/0 ; PWD=/home/ame ; USER=root ; COMMAND=/usr/sbin/tailscaled
+2025-05-26T14:07:33.823790-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-05-26T14:07:39.541654-07:00 DESKTOP-C4J7T14 sudo:      ame : TTY=pts/3 ; PWD=/home/ame ; USER=root ; COMMAND=/usr/bin/tailscale up
+2025-05-26T14:07:39.545471-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-05-26T14:07:40.072329-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-26T14:09:44.911215-07:00 DESKTOP-C4J7T14 su[1281]: (to ferna) ame on pts/3
+2025-05-26T14:09:44.915254-07:00 DESKTOP-C4J7T14 su[1281]: pam_unix(su-l:session): session opened for user ferna(uid=1002) by (uid=1000)
+2025-05-26T14:09:44.982905-07:00 DESKTOP-C4J7T14 systemd-logind[343]: New session c2 of user ferna.
+2025-05-26T14:09:45.046122-07:00 DESKTOP-C4J7T14 (systemd): pam_unix(systemd-user:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T14:17:01.692484-07:00 DESKTOP-C4J7T14 CRON[1333]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-26T14:17:01.731213-07:00 DESKTOP-C4J7T14 CRON[1333]: pam_unix(cron:session): session closed for user root
+2025-05-26T14:23:21.817994-07:00 DESKTOP-C4J7T14 sshd[1348]: Server listening on :: port 5000.
+2025-05-26T14:23:22.459328-07:00 DESKTOP-C4J7T14 sshd[1349]: Accepted publickey for ferna from 100.86.78.35 port 41550 ssh2: RSA SHA256:iHCNrX8+kQqUl8ydX0s2VLFuv1S54Y5tDAK8Xwubb20
+2025-05-26T14:23:22.478137-07:00 DESKTOP-C4J7T14 sshd[1349]: pam_unix(sshd:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T14:23:22.509047-07:00 DESKTOP-C4J7T14 systemd-logind[343]: New session 6 of user ferna.
+2025-05-26T14:23:25.330332-07:00 DESKTOP-C4J7T14 sshd[1387]: Received disconnect from 100.86.78.35 port 41550:11: disconnected by user
+2025-05-26T14:23:25.338377-07:00 DESKTOP-C4J7T14 sshd[1387]: Disconnected from user ferna 100.86.78.35 port 41550
+2025-05-26T14:23:25.340250-07:00 DESKTOP-C4J7T14 sshd[1349]: pam_unix(sshd:session): session closed for user ferna
+2025-05-26T14:23:25.348583-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Session 6 logged out. Waiting for processes to exit.
+2025-05-26T14:23:25.352013-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Removed session 6.
+2025-05-26T14:23:52.307123-07:00 DESKTOP-C4J7T14 sshd[1389]: Accepted publickey for ferna from 100.86.78.35 port 46580 ssh2: RSA SHA256:iHCNrX8+kQqUl8ydX0s2VLFuv1S54Y5tDAK8Xwubb20
+2025-05-26T14:23:52.322099-07:00 DESKTOP-C4J7T14 sshd[1389]: pam_unix(sshd:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T14:23:52.346462-07:00 DESKTOP-C4J7T14 systemd-logind[343]: New session 7 of user ferna.
+2025-05-26T14:23:53.077775-07:00 DESKTOP-C4J7T14 sshd[1418]: Received disconnect from 100.86.78.35 port 46580:11: disconnected by user
+2025-05-26T14:23:53.078616-07:00 DESKTOP-C4J7T14 sshd[1418]: Disconnected from user ferna 100.86.78.35 port 46580
+2025-05-26T14:23:53.081553-07:00 DESKTOP-C4J7T14 sshd[1389]: pam_unix(sshd:session): session closed for user ferna
+2025-05-26T14:23:53.099136-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Session 7 logged out. Waiting for processes to exit.
+2025-05-26T14:23:53.105411-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Removed session 7.
+2025-05-26T14:23:58.886852-07:00 DESKTOP-C4J7T14 sshd[1423]: Accepted publickey for ferna from 100.86.78.35 port 35978 ssh2: RSA SHA256:iHCNrX8+kQqUl8ydX0s2VLFuv1S54Y5tDAK8Xwubb20
+2025-05-26T14:23:58.896999-07:00 DESKTOP-C4J7T14 sshd[1423]: pam_unix(sshd:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T14:23:58.916286-07:00 DESKTOP-C4J7T14 systemd-logind[343]: New session 8 of user ferna.
+2025-05-26T14:23:59.392089-07:00 DESKTOP-C4J7T14 sshd[1452]: Received disconnect from 100.86.78.35 port 35978:11: disconnected by user
+2025-05-26T14:23:59.392419-07:00 DESKTOP-C4J7T14 sshd[1452]: Disconnected from user ferna 100.86.78.35 port 35978
+2025-05-26T14:23:59.393081-07:00 DESKTOP-C4J7T14 sshd[1423]: pam_unix(sshd:session): session closed for user ferna
+2025-05-26T14:23:59.399528-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Session 8 logged out. Waiting for processes to exit.
+2025-05-26T14:23:59.401544-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Removed session 8.
+2025-05-26T14:24:09.121088-07:00 DESKTOP-C4J7T14 sshd[1454]: Accepted publickey for ferna from 100.86.78.35 port 35522 ssh2: RSA SHA256:iHCNrX8+kQqUl8ydX0s2VLFuv1S54Y5tDAK8Xwubb20
+2025-05-26T14:24:09.142119-07:00 DESKTOP-C4J7T14 sshd[1454]: pam_unix(sshd:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T14:24:09.168293-07:00 DESKTOP-C4J7T14 systemd-logind[343]: New session 9 of user ferna.
+2025-05-26T14:24:09.679857-07:00 DESKTOP-C4J7T14 sshd[1483]: Received disconnect from 100.86.78.35 port 35522:11: disconnected by user
+2025-05-26T14:24:09.680860-07:00 DESKTOP-C4J7T14 sshd[1483]: Disconnected from user ferna 100.86.78.35 port 35522
+2025-05-26T14:24:09.682061-07:00 DESKTOP-C4J7T14 sshd[1454]: pam_unix(sshd:session): session closed for user ferna
+2025-05-26T14:24:09.701367-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Session 9 logged out. Waiting for processes to exit.
+2025-05-26T14:24:09.708590-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Removed session 9.
+2025-05-26T14:25:10.201502-07:00 DESKTOP-C4J7T14 sshd[1490]: Accepted publickey for ferna from 100.86.78.35 port 33170 ssh2: RSA SHA256:iHCNrX8+kQqUl8ydX0s2VLFuv1S54Y5tDAK8Xwubb20
+2025-05-26T14:25:10.213924-07:00 DESKTOP-C4J7T14 sshd[1490]: pam_unix(sshd:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T14:25:10.231191-07:00 DESKTOP-C4J7T14 systemd-logind[343]: New session 10 of user ferna.
+2025-05-26T14:25:13.200658-07:00 DESKTOP-C4J7T14 sshd[1528]: Received disconnect from 100.86.78.35 port 33170:11: disconnected by user
+2025-05-26T14:25:13.201377-07:00 DESKTOP-C4J7T14 sshd[1528]: Disconnected from user ferna 100.86.78.35 port 33170
+2025-05-26T14:25:13.203797-07:00 DESKTOP-C4J7T14 sshd[1490]: pam_unix(sshd:session): session closed for user ferna
+2025-05-26T14:25:13.217934-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Session 10 logged out. Waiting for processes to exit.
+2025-05-26T14:25:13.221496-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Removed session 10.
+2025-05-26T14:25:23.644468-07:00 DESKTOP-C4J7T14 sshd[1530]: Accepted publickey for ferna from 100.86.78.35 port 41084 ssh2: RSA SHA256:iHCNrX8+kQqUl8ydX0s2VLFuv1S54Y5tDAK8Xwubb20
+2025-05-26T14:25:23.664071-07:00 DESKTOP-C4J7T14 sshd[1530]: pam_unix(sshd:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T14:25:23.694108-07:00 DESKTOP-C4J7T14 systemd-logind[343]: New session 11 of user ferna.
+2025-05-26T14:25:24.427152-07:00 DESKTOP-C4J7T14 sshd[1559]: Received disconnect from 100.86.78.35 port 41084:11: disconnected by user
+2025-05-26T14:25:24.431428-07:00 DESKTOP-C4J7T14 sshd[1559]: Disconnected from user ferna 100.86.78.35 port 41084
+2025-05-26T14:25:24.432268-07:00 DESKTOP-C4J7T14 sshd[1530]: pam_unix(sshd:session): session closed for user ferna
+2025-05-26T14:25:24.454190-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Session 11 logged out. Waiting for processes to exit.
+2025-05-26T14:25:24.461639-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Removed session 11.
+2025-05-26T14:25:31.352632-07:00 DESKTOP-C4J7T14 sshd[1564]: Accepted publickey for ferna from 100.86.78.35 port 51498 ssh2: RSA SHA256:iHCNrX8+kQqUl8ydX0s2VLFuv1S54Y5tDAK8Xwubb20
+2025-05-26T14:25:31.367740-07:00 DESKTOP-C4J7T14 sshd[1564]: pam_unix(sshd:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T14:25:31.397699-07:00 DESKTOP-C4J7T14 systemd-logind[343]: New session 12 of user ferna.
+2025-05-26T14:25:31.941893-07:00 DESKTOP-C4J7T14 sshd[1593]: Received disconnect from 100.86.78.35 port 51498:11: disconnected by user
+2025-05-26T14:25:31.942749-07:00 DESKTOP-C4J7T14 sshd[1593]: Disconnected from user ferna 100.86.78.35 port 51498
+2025-05-26T14:25:31.945133-07:00 DESKTOP-C4J7T14 sshd[1564]: pam_unix(sshd:session): session closed for user ferna
+2025-05-26T14:25:31.967043-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Session 12 logged out. Waiting for processes to exit.
+2025-05-26T14:25:31.973242-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Removed session 12.
+2025-05-26T14:26:40.337484-07:00 DESKTOP-C4J7T14 sshd[1599]: Accepted publickey for ferna from 100.86.78.35 port 35940 ssh2: RSA SHA256:iHCNrX8+kQqUl8ydX0s2VLFuv1S54Y5tDAK8Xwubb20
+2025-05-26T14:26:40.354235-07:00 DESKTOP-C4J7T14 sshd[1599]: pam_unix(sshd:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-26T14:26:40.381172-07:00 DESKTOP-C4J7T14 systemd-logind[343]: New session 13 of user ferna.
+2025-05-26T14:26:43.129032-07:00 DESKTOP-C4J7T14 sshd[1639]: Received disconnect from 100.86.78.35 port 35940:11: disconnected by user
+2025-05-26T14:26:43.139065-07:00 DESKTOP-C4J7T14 sshd[1639]: Disconnected from user ferna 100.86.78.35 port 35940
+2025-05-26T14:26:43.140768-07:00 DESKTOP-C4J7T14 sshd[1599]: pam_unix(sshd:session): session closed for user ferna
+2025-05-26T14:26:43.148764-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Session 13 logged out. Waiting for processes to exit.
+2025-05-26T14:26:43.152373-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Removed session 13.
+2025-05-26T14:31:21.811322-07:00 DESKTOP-C4J7T14 su[1281]: pam_unix(su-l:session): session closed for user ferna
+2025-05-26T14:31:21.816924-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Session c2 logged out. Waiting for processes to exit.
+2025-05-26T14:31:21.818194-07:00 DESKTOP-C4J7T14 systemd-logind[343]: Removed session c2.
+2025-05-26T14:31:27.180354-07:00 DESKTOP-C4J7T14 sudo:      ame : TTY=pts/3 ; PWD=/home/ame ; USER=root ; COMMAND=/usr/bin/tailscale down
+2025-05-26T14:31:27.184584-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-05-26T14:31:28.550565-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-26T14:31:30.847334-07:00 DESKTOP-C4J7T14 (sd-pam): pam_unix(systemd-user:session): session closed for user ferna
+2025-05-26T14:31:31.205827-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-28T18:39:18.681853-07:00 DESKTOP-C4J7T14 systemd-logind[396]: New seat seat0.
+2025-05-28T18:39:20.662844-07:00 DESKTOP-C4J7T14 login[578]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2025-05-28T18:39:20.662976-07:00 DESKTOP-C4J7T14 login[578]: PAM adding faulty module: pam_lastlog.so
+2025-05-28T18:39:22.147953-07:00 DESKTOP-C4J7T14 login[578]: pam_unix(login:session): session opened for user ame(uid=1000) by ame(uid=0)
+2025-05-28T18:39:22.521404-07:00 DESKTOP-C4J7T14 systemd-logind[396]: New session 1 of user ame.
+2025-05-28T18:39:22.784082-07:00 DESKTOP-C4J7T14 (systemd): pam_unix(systemd-user:session): session opened for user ame(uid=1000) by ame(uid=0)
+2025-05-28T18:39:44.929217-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=ame rhost=  user=ame
+2025-05-28T18:39:51.723558-07:00 DESKTOP-C4J7T14 sudo:      ame : TTY=pts/0 ; PWD=/home/ame ; USER=root ; COMMAND=/usr/bin/pkill tailscaled
+2025-05-28T18:39:51.727007-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-05-28T18:39:51.777389-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-28T18:39:59.639220-07:00 DESKTOP-C4J7T14 sudo:      ame : TTY=pts/0 ; PWD=/home/ame ; USER=root ; COMMAND=/usr/sbin/tailscaled
+2025-05-28T18:39:59.650665-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-05-28T18:40:14.296012-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/3 ruser=ame rhost=  user=ame
+2025-05-28T18:40:18.243491-07:00 DESKTOP-C4J7T14 sudo:      ame : TTY=pts/3 ; PWD=/home/ame ; USER=root ; COMMAND=/usr/bin/tailscale up
+2025-05-28T18:40:18.246637-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-05-28T18:40:19.522523-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-28T18:40:29.666412-07:00 DESKTOP-C4J7T14 su[1061]: (to ferna) ame on pts/3
+2025-05-28T18:40:29.670929-07:00 DESKTOP-C4J7T14 su[1061]: pam_unix(su-l:session): session opened for user ferna(uid=1002) by (uid=1000)
+2025-05-28T18:40:29.723340-07:00 DESKTOP-C4J7T14 systemd-logind[396]: New session c1 of user ferna.
+2025-05-28T18:40:29.781513-07:00 DESKTOP-C4J7T14 (systemd): pam_unix(systemd-user:session): session opened for user ferna(uid=1002) by ferna(uid=0)
+2025-05-28T19:08:33.189541-07:00 DESKTOP-C4J7T14 su[1061]: pam_unix(su-l:session): session closed for user ferna
+2025-05-28T19:08:33.201350-07:00 DESKTOP-C4J7T14 systemd-logind[396]: Session c1 logged out. Waiting for processes to exit.
+2025-05-28T19:08:33.203555-07:00 DESKTOP-C4J7T14 systemd-logind[396]: Removed session c1.
+2025-05-28T19:08:41.446686-07:00 DESKTOP-C4J7T14 sudo:      ame : TTY=pts/3 ; PWD=/home/ame ; USER=root ; COMMAND=/usr/bin/tailscale down
+2025-05-28T19:08:41.454306-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-05-28T19:08:42.695806-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-28T19:08:45.707754-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-29T21:59:33.241640-07:00 DESKTOP-C4J7T14 systemd-logind[366]: New seat seat0.
+2025-05-29T21:59:37.921627-07:00 DESKTOP-C4J7T14 login[746]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2025-05-29T21:59:37.922666-07:00 DESKTOP-C4J7T14 login[746]: PAM adding faulty module: pam_lastlog.so
+2025-05-29T21:59:39.108703-07:00 DESKTOP-C4J7T14 login[746]: pam_unix(login:session): session opened for user ame(uid=1000) by ame(uid=0)
+2025-05-29T21:59:39.162740-07:00 DESKTOP-C4J7T14 systemd-logind[366]: New session 1 of user ame.
+2025-05-29T21:59:39.242404-07:00 DESKTOP-C4J7T14 (systemd): pam_unix(systemd-user:session): session opened for user ame(uid=1000) by ame(uid=0)
+2025-05-29T21:59:59.435075-07:00 DESKTOP-C4J7T14 sudo:      ame : TTY=pts/0 ; PWD=/home/ame ; USER=root ; COMMAND=/usr/bin/apt update
+2025-05-29T21:59:59.437095-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-05-29T22:00:05.984991-07:00 DESKTOP-C4J7T14 polkitd[1210]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-29T22:00:05.985202-07:00 DESKTOP-C4J7T14 polkitd[1210]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-29T22:00:05.990779-07:00 DESKTOP-C4J7T14 polkitd[1210]: Finished loading, compiling and executing 4 rules
+2025-05-29T22:00:05.992415-07:00 DESKTOP-C4J7T14 polkitd[1210]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-05-29T22:00:16.711602-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-29T22:00:16.729390-07:00 DESKTOP-C4J7T14 sudo:      ame : TTY=pts/0 ; PWD=/home/ame ; USER=root ; COMMAND=/usr/bin/apt upgrade
+2025-05-29T22:00:16.731024-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-05-29T22:01:11.211384-07:00 DESKTOP-C4J7T14 polkitd[1210]: Reloading rules
+2025-05-29T22:01:11.211585-07:00 DESKTOP-C4J7T14 polkitd[1210]: Collecting garbage unconditionally...
+2025-05-29T22:01:11.211714-07:00 DESKTOP-C4J7T14 polkitd[1210]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-29T22:01:11.211824-07:00 DESKTOP-C4J7T14 polkitd[1210]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-29T22:01:11.213237-07:00 DESKTOP-C4J7T14 polkitd[1210]: Finished loading, compiling and executing 4 rules
+2025-05-29T22:01:11.213412-07:00 DESKTOP-C4J7T14 polkitd[1210]: Reloading rules
+2025-05-29T22:01:11.213566-07:00 DESKTOP-C4J7T14 polkitd[1210]: Collecting garbage unconditionally...
+2025-05-29T22:01:11.213670-07:00 DESKTOP-C4J7T14 polkitd[1210]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-29T22:01:11.213755-07:00 DESKTOP-C4J7T14 polkitd[1210]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-29T22:01:11.215394-07:00 DESKTOP-C4J7T14 polkitd[1210]: Finished loading, compiling and executing 4 rules
+2025-05-29T22:01:30.535551-07:00 DESKTOP-C4J7T14 polkitd[1210]: Reloading rules
+2025-05-29T22:01:30.539204-07:00 DESKTOP-C4J7T14 polkitd[1210]: Collecting garbage unconditionally...
+2025-05-29T22:01:30.539328-07:00 DESKTOP-C4J7T14 polkitd[1210]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-29T22:01:30.539537-07:00 DESKTOP-C4J7T14 polkitd[1210]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-29T22:01:30.539663-07:00 DESKTOP-C4J7T14 polkitd[1210]: Finished loading, compiling and executing 4 rules
+2025-05-29T22:01:30.539751-07:00 DESKTOP-C4J7T14 polkitd[1210]: Reloading rules
+2025-05-29T22:01:30.539838-07:00 DESKTOP-C4J7T14 polkitd[1210]: Collecting garbage unconditionally...
+2025-05-29T22:01:30.539924-07:00 DESKTOP-C4J7T14 polkitd[1210]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-29T22:01:30.540004-07:00 DESKTOP-C4J7T14 polkitd[1210]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-29T22:01:30.540093-07:00 DESKTOP-C4J7T14 polkitd[1210]: Finished loading, compiling and executing 4 rules
+2025-05-29T22:01:30.540168-07:00 DESKTOP-C4J7T14 polkitd[1210]: Reloading rules
+2025-05-29T22:01:30.540253-07:00 DESKTOP-C4J7T14 polkitd[1210]: Collecting garbage unconditionally...
+2025-05-29T22:01:30.540351-07:00 DESKTOP-C4J7T14 polkitd[1210]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-29T22:01:30.540443-07:00 DESKTOP-C4J7T14 polkitd[1210]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-29T22:01:30.541961-07:00 DESKTOP-C4J7T14 polkitd[1210]: Finished loading, compiling and executing 4 rules
+2025-05-29T22:01:30.542066-07:00 DESKTOP-C4J7T14 polkitd[1210]: Reloading rules
+2025-05-29T22:01:30.542157-07:00 DESKTOP-C4J7T14 polkitd[1210]: Collecting garbage unconditionally...
+2025-05-29T22:01:30.542254-07:00 DESKTOP-C4J7T14 polkitd[1210]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-29T22:01:30.542358-07:00 DESKTOP-C4J7T14 polkitd[1210]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-29T22:01:30.544776-07:00 DESKTOP-C4J7T14 polkitd[1210]: Finished loading, compiling and executing 4 rules
+2025-05-29T22:01:33.008244-07:00 DESKTOP-C4J7T14 polkitd[1210]: Reloading rules
+2025-05-29T22:01:33.009410-07:00 DESKTOP-C4J7T14 polkitd[1210]: Collecting garbage unconditionally...
+2025-05-29T22:01:33.009585-07:00 DESKTOP-C4J7T14 polkitd[1210]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-29T22:01:33.009677-07:00 DESKTOP-C4J7T14 polkitd[1210]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-29T22:01:33.010015-07:00 DESKTOP-C4J7T14 polkitd[1210]: Finished loading, compiling and executing 4 rules
+2025-05-29T22:01:33.010250-07:00 DESKTOP-C4J7T14 polkitd[1210]: Reloading rules
+2025-05-29T22:01:33.010385-07:00 DESKTOP-C4J7T14 polkitd[1210]: Collecting garbage unconditionally...
+2025-05-29T22:01:33.010472-07:00 DESKTOP-C4J7T14 polkitd[1210]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-29T22:01:33.010597-07:00 DESKTOP-C4J7T14 polkitd[1210]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-29T22:01:33.012419-07:00 DESKTOP-C4J7T14 polkitd[1210]: Finished loading, compiling and executing 4 rules
+2025-05-29T22:02:25.888107-07:00 DESKTOP-C4J7T14 polkitd[5804]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-29T22:02:25.888417-07:00 DESKTOP-C4J7T14 polkitd[5804]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-29T22:02:25.890354-07:00 DESKTOP-C4J7T14 polkitd[5804]: Finished loading, compiling and executing 4 rules
+2025-05-29T22:02:25.891845-07:00 DESKTOP-C4J7T14 polkitd[5804]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-05-29T22:02:33.301775-07:00 DESKTOP-C4J7T14 sudo: pam_unix(sudo:session): session closed for user root

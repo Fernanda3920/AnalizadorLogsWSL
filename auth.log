@@ -1,0 +1,26 @@
+May 31 01:20:45 servidor sshd[1357]: Failed password for invalid user admin from 10.0.0.25 port 4242 ssh2
+May 31 01:21:10 servidor sshd[1357]: Failed password for invalid user test from 10.0.0.25 port 4243 ssh2
+May 31 01:21:35 servidor sshd[1357]: Failed password for root from 10.0.0.25 port 4244 ssh2
+May 31 01:22:00 servidor sshd[1357]: Failed password for root from 10.0.0.25 port 4245 ssh2
+May 31 01:22:25 servidor sshd[1357]: Failed password for root from 10.0.0.25 port 4246 ssh2
+May 31 01:23:00 servidor sshd[1357]: Failed password for root from 10.0.0.25 port 4247 ssh2
+May 31 01:23:25 servidor sshd[1357]: Failed password for root from 10.0.0.25 port 4248 ssh2
+
+May 31 03:10:15 servidor sshd[1420]: Accepted password for juan from 123.45.67.89 port 5522 ssh2
+May 31 03:12:11 servidor sudo: juan : TTY=pts/0 ; PWD=/home/juan ; USER=root ; COMMAND=/bin/ls
+May 31 03:13:00 servidor sudo: pam_unix(sudo:auth): authentication failure; logname=juan uid=1000 euid=0 tty=/dev/pts/0 ruser=juan rhost= user=root
+
+May 31 15:15:42 servidor sshd[2000]: Failed password for root from 192.168.0.10 port 3333 ssh2
+May 31 15:16:42 servidor sshd[2001]: Accepted password for maria from 172.20.0.5 port 3344 ssh2
+May 31 15:17:42 servidor sshd[2002]: Session opened for user maria by (uid=0)
+May 31 15:18:42 servidor sshd[2003]: Session closed for user maria
+
+May 31 22:45:33 servidor sshd[2123]: Accepted password for admin from 88.99.77.66 port 2022 ssh2
+May 31 22:46:12 servidor sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt update
+
+May 31 17:35:00 servidor apache2[8888]: segfault at 00000004 ip 00007fffdeef2e3a sp 00007fffdeeece08 error 4 in libc-2.31.so[7fbc9d000+1b3000]
+May 31 18:15:00 servidor kernel: [ 4567.890123] Stack overflow in process apache2 (pid: 8888)
+May 31 19:00:00 servidor systemd[1]: Starting Emergency Shell...
+
+May 31 04:00:00 servidor sshd[4000]: Failed password for root from 0.0.0.0 port 1022 ssh2
+May 31 04:01:00 servidor sshd[4001]: Failed password for root from 127.0.0.1 port 1023 ssh2
